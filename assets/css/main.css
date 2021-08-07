@@ -1,0 +1,28 @@
+body{
+    background-color: blueviolet;
+    margin: 0;
+}
+
+nav{
+    height: 80px;
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    align-items:center ;
+    background-color: coral;
+}
+
+.text-nav{
+    text-decoration: none;
+    font-size: 25px;
+    color: #fff;
+}
+
+.mr-sm{
+    margin-right: 10px;
+}
+
+
+p{
+    color:red;
+}
