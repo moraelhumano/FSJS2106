@@ -1,5 +1,4 @@
 body{
-    background-color: blueviolet;
     margin: 0;
 }
 
@@ -12,6 +11,42 @@ nav{
     background-color: coral;
 }
 
+
+#home-hero{
+    height: 60vh;
+    width: 100%;
+    background-image: url("../img/hdma.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+#home-hero img{
+    height: 75%;
+    width: 50%;
+}
+
+#home-hero h1{
+    color: green;
+    font-size: 40px;
+}
+
+.video-container{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.video-container iframe{
+    margin-top: 50px;
+}
+
 .text-nav{
     text-decoration: none;
     font-size: 25px;
@@ -22,7 +57,3 @@ nav{
     margin-right: 10px;
 }
 
-
-p{
-    color:red;
-}
