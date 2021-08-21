@@ -42,6 +42,7 @@ nav{
     display: flex;
     justify-content: center;
     align-items: center;
+    flex-direction: column;
 }
 
 .video-container iframe{
@@ -72,10 +73,7 @@ nav{
         background-color: brown;
     }
 
-    .video-container{
-        flex-direction: column;
-    }
-
+  
 
   }
 
